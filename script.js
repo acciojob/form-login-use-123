@@ -1,9 +1,10 @@
 function getFormvalue() {
-    //Write your code here
-    // Get the form elements by their IDs or names
-    const firstName = document.querySelector('input[name="firstName"]').value;
-    const lastName = document.querySelector('input[name="lastName"]').value;
+	// Access the form elements by their name attribute
+    const fname = document.querySelector('input[name="fname"]').value;
+    const lname = document.querySelector('input[name="lname"]').value;
 
-    // Display an alert with the concatenated full name
-    alert(firstName + " " + lastName);
+    // Alert the concatenated full name
+    alert(fname + " " + lname);
+	//Write your code here
+    
 }
